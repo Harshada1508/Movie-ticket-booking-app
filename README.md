@@ -39,7 +39,7 @@ This is a **Movie Ticket Booking Web App** that I built as part of my internship
 
 ## 🖼️ Screenshots
 
-Open Snap_Shot Folder
+Open "Snap_Shots" Folder to see output images
 
 ---
 
