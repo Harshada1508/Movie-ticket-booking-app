@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# 🎟️ Ticket Booking App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hey there! 👋  
+This is a **Movie Ticket Booking Web App** that I built as part of my internship project. It’s a fully functional platform where users can browse shows, book seats, pay securely using Razorpay, and even download their booking receipts!
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 💡 What This App Does
 
-### `npm start`
+- 🧑‍💻 **User Login & Registration**  
+  Users can sign up and log in using their email & password. Email verification is also included!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🏠 **Homepage with Movies**  
+  Displays a list of movies/shows (I added 8+!) — each with a dedicated details page.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- 🪑 **Seat Booking**  
+  Users can select seats in a nice grid format. Booked seats get locked and can't be booked again by others.
 
-### `npm test`
+- 💳 **Secure Payments with Razorpay**  
+  Checkout is integrated with Razorpay for smooth and secure transactions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 📋 **View Bookings + Receipt Download**  
+  Users can view all their bookings in a separate "My Bookings" section. Each booking has a **PDF download option** for receipts.
 
-### `npm run build`
+- 📱 **Responsive Design**  
+  Works perfectly on phones, tablets, and desktops. Styled with a clean dark theme UI.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Tech I Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React + Redux for frontend & state management
+- Firebase Auth & Firestore for backend & authentication
+- Razorpay API for handling payments
+- jsPDF for downloading receipts as PDF
+- Firebase Hosting for deployment
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🖼️ Screenshots
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Open Snap_Shot Folder
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📌 Some Extra Stuff I Added
 
-## Learn More
+- 🔒 Route protection – Only logged-in users can book or view bookings
+- 📧 Email verification after sign-up
+- 🧾 Downloadable PDF receipts for each booking
+- 🎨 Custom styling with a clean and modern dark theme
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🚀 Getting Started (If You Want to Run It Locally)
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/your-username/ticket-booking-app.git
+cd ticket-booking-app
+npm install
+npm start
